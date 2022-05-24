@@ -14,3 +14,9 @@ def solution(nums):
     return answer
 
 solution(num)
+
+
+''' 모범답안 
+def solution(ls):
+    return min(len(ls)/2, len(set(ls)))
+'''
